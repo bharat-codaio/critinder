@@ -12,5 +12,5 @@
 
     function AboutController($rootScope, $scope, $log) {
         $log.info("Everything About Nothing");
-    };
+    }
 })();

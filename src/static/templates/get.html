@@ -16,12 +16,13 @@
     <div class="section-header container left-align">
       <h3><i class="fa fa-upload"></i> Upload Your Intended Tinder Profile Pictures (at least 3)</h3>
     </div>
+    <!--
     <div class="container left-align">
       <div class="row">
         <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-image">
-              <img src="/static/img/profiles/1/1.jpg">
+              <img src="/static/img/profiles/1/image.jpg">
               <span class="card-title">1*</span>
             </div>
             <div class="card-action">
@@ -39,7 +40,7 @@
         <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-image">
-              <img src="/static/img/profiles/1/2.jpg">
+              <img src="/static/img/profiles/1/image.jpg">
               <span class="card-title">2*</span>
             </div>
             <div class="card-action">
@@ -55,11 +56,14 @@
           </div>
         </div>
         <div class="col s12 m6 l3">
-          <div class="card empty">
-            <div class="card-image" layout="column" layout-align="center center">
-              <span class="card-title">3*</span>
-              <span class="add-pic-icon"><i class="fa fa-image"></i></span>
-            </div>
+          <div class="file-upload-div">
+            <h4>Upload on file select</h4>
+            <button type="file" ngf-select="uploadFiles($file, $invalidFiles)" accept="image/*" ngf-max-height="1000" ngf-max-size="1MB">Select File</button>
+            <div>{{f.name}} {{errFile.name}} {{errFile.$error}} {{errFile.$errorParam}}
+              <span class="progress" ng-show="f.progress >= 0">
+                <div style="width:{{f.progress}}%" ng-bind="f.progress + '%'"></div>
+              </span>
+            </div>{{errorMsg}}
           </div>
         </div>
         <div class="col s12 m6 l3">
@@ -106,11 +110,13 @@
         </div>
       </div>
     </div>
+    -->
   </section>
   <section class="get-bios">
     <div class="section-header container left-align">
       <h3><i class="fa fa-pencil-square-o"></i> Add Your Potential Tinder Bios</h3>
     </div>
+    <!--
     <div class="bios container left-align z-depth-1">
       <form>
         <div class="row">
@@ -164,7 +170,9 @@
         </div>
       </div>
     </form>
+    -->
   </section>
+  <!--
   <section class="get-submit">
     <div class="container">
       <div class="row">
@@ -177,10 +185,11 @@
       </div>
     </div>
   </section>
+  -->
 </div>
+<!-- Bottom Scripts -->
 <script>
-// make pictures square
-var cw = $('.card-image').width();
-$('.card-image').css({'height':cw+'px'});
-
+  // make pictures square
+  var cw = $('.card-image').width();
+  $('.card-image').css({'height':cw+'px'});
 </script>

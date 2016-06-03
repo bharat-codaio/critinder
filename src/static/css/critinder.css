@@ -28,6 +28,32 @@
   line-height: 3em;
 }
 
+/* File Upload */
+
+.thumb {
+  width: 24px;
+  height: 24px;
+  float: none;
+  position: relative;
+  top: 7px;
+}
+
+form .progress {
+  line-height: 15px;
+}
+
+.progress {
+  display: inline-block;
+  width: 100px;
+  border: 3px groove #CCC;
+}
+
+.progress div {
+  font-size: smaller;
+  background: orange;
+  width: 0;
+}
+
 /***********************************************
 *** Global // Themes ***************************
 ***********************************************/
@@ -456,9 +482,54 @@ background: #fff;
 *** giveCritique // Overall *********************
 ***********************************************/
 
+.giveCritique > section {
+  width: 100%;
+}
+
+.giveCritique .profile-pic-options {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.giveCritique .profile-pic-options .col {
+  margin: 0; padding: 0;
+}
+
+.profile-pic-option > * {
+  text-align: center;
+}
+
+.profile-pic-option > * {
+  width: 90% !important;
+  text-align: center;
+}
+
+.giveCritique .profile-pic-option i {
+font-size: 2em;
+background: #fff;
+color: #333;
+padding: 10px 0;
+text-align: center;
+width: 100%;
+}
+
 /***********************************************
 *** giveCritique // Step 1/3: Select ************
 ***********************************************/
+
+.give-intro .row,
+.give-intro .col,
+.profile-pic-option .row,
+.profile-pic-option .col {
+margin: 0 !important;
+padding: 0 !important;
+}
+
+.give-intro .card {
+  box-sizing: border-box;
+padding: 5px 50px !important;
+font-size: 2em !important;
+}
 
 /***********************************************
 *** giveCritique // Step 2/3: Pics **************

@@ -1,4 +1,4 @@
-var critinderApp = angular.module('critinderApp', ['ngRoute', 'ngMaterial', 'ngAnimate']);
+var critinderApp = angular.module('critinderApp', ['ngRoute', 'ngMaterial', 'ngAnimate', 'ngFileUpload']);
 
 critinderApp.config(function($routeProvider) {
   $routeProvider

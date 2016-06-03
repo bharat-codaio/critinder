@@ -1,9 +1,3 @@
-/**
- * Created by bharatbatra on 6/3/16.
- */
-/**
- * Created by bharatbatra on 6/3/16.
- */
 (function(){
     'use strict';
 
