@@ -12,23 +12,31 @@
     CritiqueProviderController.$inject = ['$rootScope', '$scope', '$log'];
 
     function CritiqueProviderController($rootScope, $scope, $log) {
-        var self = this;
-        self.toggler = [];
-        $log.info("Welcome Critique Provider!");
-        for(var i=1; i<7; i++)
+        var vm = this;
+        //vars
+        vm.toggleGrid = [];
+        vm.toggleHeart = [];
+        for(var i=0; i<6; i++)
         {
-            self.toggler[i] = true;
+            vm.toggleHeart[i]=false;
+            vm.toggleGrid[i]= true;
         }
-        
-        this.butnpress = function(data)
-        {
-            console.log("Clicked eme ");
-        };
-        self.toggleSelect =  function(index){
-            self.toggler[index] = !self.toggler[index];
-            console.log(index);
-        };
-        return self;
-        
+
+
+        vm.pressHeart = function(index){
+            for(var i=0; i<6; i++)
+            {
+                if(i===index)
+                    vm.toggleHeart[i]=true;
+                else
+                    vm.toggleHeart[i]=false;
+            }
+        }
+
+        //functions
+        vm.toggleSelector = function (index){
+            console.log("gonna press " + index);
+            vm.toggleGrid[index] = !(vm.toggleGrid[index]);
+        }
     }
 })();
