@@ -32,7 +32,6 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-<<<<<<< Updated upstream
 app.listen(port, function() {
     console.log('listening on port ' + port);
 });
@@ -55,8 +54,3 @@ app.post('/api/test', function(req, res){
 Mongo Crud Stuff
  */
 var Test = require('./static/model/testModel');
-=======
-app.listen(8000, function() {
-    console.log('listening on port 8000');
-});
->>>>>>> Stashed changes
