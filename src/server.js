@@ -42,7 +42,6 @@ app.post('/api/test', function(req, res){
 
     console.log(test);
 
-
     test.save(function(err){
        if(err)
            res.send(err);
@@ -55,5 +54,3 @@ app.post('/api/test', function(req, res){
 Mongo Crud Stuff
  */
 var Test = require('./static/model/testModel');
-
-
