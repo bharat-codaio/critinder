@@ -2,7 +2,6 @@
  * Created by bharatbatra on 6/2/16.
  */
 (function(){
-
     'use strict';
 
     angular

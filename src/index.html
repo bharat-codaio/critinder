@@ -11,6 +11,8 @@
   <!-- JS Resources -->
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <!-- Constants & Utils -->
+  <script src="/static/js/utils.js"></script>
   <!-- CSS Custom -->
   <link href="/static/css/base.css" rel="stylesheet">
   <link href="/static/css/theme.css" rel="stylesheet">
@@ -29,11 +31,11 @@
             <i class="fa fa-sign-in"></i>
             <span class="hide-on-med-and-down">Home</span>
           </a>
-          <a href="#give" class="button">
+          <a href="#giveCritique" class="button">
             <i class="fa fa-pencil-square-o"></i>
             <span class="hide-on-med-and-down">Give Critique</span>
           </a>
-          <a href="#get" class="button">
+          <a href="#getCritique" class="button">
             <i class="fa fa-file-text-o"></i>
             <span class="hide-on-med-and-down">Get Critique</span>
           </a>
@@ -57,6 +59,13 @@
   <script src="https://gitcdn.link/repo/angular/bower-material/master/angular-material.min.js"></script>
   <!-- Bottom Scripts // Core Angular File -->
   <script src="/static/js/app.js"></script>
+  <!-- Angular Services -->
+  <script src="/static/js/services/ServerService.js"></script>
+  <!-- Angular Controllers -->
+  <script src="/static/js/controllers/CritiqueSeekerController.js"></script>
+  <script src="/static/js/controllers/CritiqueProviderController.js"></script>
+  <script src="/static/js/controllers/AboutController.js"></script>
+  <script src="/static/js/controllers/HomeController.js"></script>
   <!-- Bottom Scripts // Check if jQuery is Loaded -->
   <script>$(document).ready(function(){if(jQuery){console.log("jQuery is loaded!");}});</script>
 </body>

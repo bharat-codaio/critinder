@@ -11,31 +11,19 @@ critinderApp.config(function($routeProvider) {
     templateUrl : '/static/templates/home.html',
     controller  : 'HomeController'
   })
-  .when('/give', {
+  .when('/giveCritique', {
     templateUrl : '/static/templates/give.html',
-    controller  : 'giveController'
+    controller  : 'CritiqueProviderController'
   })
-  .when('/get', {
+  .when('/getCritique', {
     templateUrl : '/static/templates/get.html',
     controller  : 'CritiqueSeekerController'
   })
   .when('/about', {
     templateUrl : '/static/templates/about.html',
-    controller  : 'aboutController'
+    controller  : 'AboutController'
   })
 });
-
-// home controller
-critinderApp.controller('HomeController', function($scope) {
-  console.log('went home');
-});
-
-// give controller
-critinderApp.controller('giveController', function($scope) {
-  console.log('went give');
-});
-
-
 
   $(document).ready(function() {
 
@@ -59,7 +47,3 @@ critinderApp.controller('giveController', function($scope) {
 
   });
 
-// about controller
-critinderApp.controller('aboutController', function($scope) {
-  console.log('went about');
-});
