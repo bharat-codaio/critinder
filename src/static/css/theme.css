@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,700');
+@import url('https://fonts.googleapis.com/css?family=Average');
+@import url('/static/css/animate.min.css');
+/* font1: "Work Sans" and includes bold */
+/* font2: "Average";
+
+/***********************************************
+*** Color Palette ******************************
+***********************************************/
+
+/* #F6514B */
+
+.primary-color {
+  color: #F6514B;
+}
+
+.primary-color-bg {
+  background-color: #F6514B;
+}
+
+/***********************************************
+*** Global Elements ****************************
+***********************************************/
+
+* {
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+/***********************************************
+*** Typography Edits ***************************
+***********************************************/
+
+h3 {
+  font-family: "Average";
+}
+
+/***********************************************
+*** Page Animation *****************************
+***********************************************/
+
+.ng-enter    { animation:zoomInUp 0.5s both ease-in; }
+.ng-leave    { animation:zoomOutUp 0.5s both ease-in; }
