@@ -300,25 +300,25 @@ body > header {
 }
 
 .get-intro {
-background-size: cover;
-background-position: bottom;
-width: 100%;
-padding: 50px 0;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  padding: 50px 0;
 }
 
 .get-intro * {
-margin: 0;
-padding: 0;
-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
 
 .get-intro p {
-font-size: 1.5em;
-margin-top: 20px;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 
 .get-intro a {
-background: #fff;
+  background: #fff;
 }
 
 /* get page intro */
@@ -512,12 +512,12 @@ background: #fff;
 }
 
 .giveCritique .profile-pic-option i {
-font-size: 2em;
-background: #fff;
-color: #333;
-padding: 10px 0;
-text-align: center;
-width: 100%;
+  font-size: 2em;
+  background: #fff;
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
 }
 
 /***********************************************
@@ -528,8 +528,8 @@ width: 100%;
 .give-intro .col,
 .profile-pic-option .row,
 .profile-pic-option .col {
-margin: 0 !important;
-padding: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .profile-pic-option img {
@@ -538,8 +538,8 @@ padding: 0 !important;
 
 .give-intro .card {
   box-sizing: border-box;
-padding: 5px 50px !important;
-font-size: 2em !important;
+  padding: 5px 50px !important;
+  font-size: 2em !important;
 }
 
 /***********************************************

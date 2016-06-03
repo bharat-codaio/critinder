@@ -71,6 +71,15 @@
   <script src="/static/../node_modules/ng-file-upload/dist/ng-file-upload-shim.min.js"></script>
   <script src="/static/../node_modules/ng-file-upload/dist/ng-file-upload.min.js"></script>
   <!-- Bottom Scripts // Check if jQuery is Loaded -->
+  <script>
+    // make pictures square
+    var cw = $('.card-image').width();
+    $('.card-image').css({'height':cw+'px'});
+    var cw2 = $('.picture-best-choice img').width();
+    $('.picture-best-choice img').css({'height':cw2+'px'});
+    var cw3 = $('.picture-choice img').width();
+    $('.picture-choice img').css({'height':cw3+'px'});
+  </script>
   <script>$(document).ready(function(){if(jQuery){console.log("jQuery is loaded!");}});</script>
 </body>
 </html>

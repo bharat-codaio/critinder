@@ -16,7 +16,8 @@ critinderApp.config(function($routeProvider) {
       })
       .when('/giveCritique', {
         templateUrl : '/static/templates/give.html',
-        controller  : 'CritiqueProviderController'
+        controller  : 'CritiqueProviderController',
+          controllerAs : 'vm'
       })
       .when('/giveCritique2', {
         templateUrl : '/static/templates/give2.html',
