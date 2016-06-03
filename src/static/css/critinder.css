@@ -103,6 +103,13 @@ a:hover {
   padding: 15px;
 }
 
+.continue-button {
+  background-color: #333;
+  color: #fff;
+  margin: 20px 0;
+  padding: 30px;
+}
+
 /***********************************************
 *** Global // Page Position & Transition *******
 ***********************************************/
@@ -525,6 +532,10 @@ margin: 0 !important;
 padding: 0 !important;
 }
 
+.profile-pic-option img {
+  margin: 0 auto !important;
+}
+
 .give-intro .card {
   box-sizing: border-box;
 padding: 5px 50px !important;
@@ -534,6 +545,27 @@ font-size: 2em !important;
 /***********************************************
 *** giveCritique // Step 2/3: Pics **************
 ***********************************************/
+
+.first-pic-critique,
+.bio-feedback {
+  width: 100%;
+}
+
+.first-pic-critique > .row > h5 {
+  width: 100%;
+}
+
+.first-pic-critique > .row > .col {
+  padding: 10px;
+}
+
+.first-pic-critique > .row > .col > img {
+  width: 100%;
+}
+
+.first-pic-feedback {
+  padding: 30px 20px 20px !important;
+}
 
 /***********************************************
 *** giveCritique // Step 3/3: Bios **************
