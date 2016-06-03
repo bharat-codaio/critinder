@@ -11,6 +11,10 @@ critinderApp.config(function($routeProvider) {
     templateUrl : '/static/templates/home.html',
     controller  : 'HomeController'
   })
+  .when('/test', {
+      templateUrl : '/static/templates/test.html',
+      controller  : 'HomeController'
+    })
   .when('/giveCritique', {
     templateUrl : '/static/templates/give.html',
     controller  : 'CritiqueProviderController'
@@ -23,4 +27,5 @@ critinderApp.config(function($routeProvider) {
     templateUrl : '/static/templates/about.html',
     controller  : 'AboutController'
   })
+
 });
