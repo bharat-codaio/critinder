@@ -10,6 +10,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+<<<<<<< Updated upstream
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
@@ -26,4 +27,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> Stashed changes
 </project>
